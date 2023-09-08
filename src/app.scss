@@ -109,11 +109,22 @@ body {
 .stats {
     height: 100vh;
     position: relative;
-    background-image: url('img/sa-parliament.jpg');
-    background-position: center center;
-    background-size: cover;
     background-color: #ccc;
-    background-blend-mode: screen;
+    
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('img/sa-parliament.jpg');
+        background-position: center center;
+        background-size: cover;
+        filter: grayscale(100%);
+        opacity: 0.1;
+    }
 
     .stats-inner {
         position: absolute;
@@ -157,8 +168,9 @@ body {
             0 100px 80px rgba(0, 0, 0, 0.12);
             width: 100%;
             padding: 2em;
-            background-color: #1883da;
+            background-color: rgba(97, 170, 229, 0.9);
             color: #fff;
+            border-radius: 5px;
 
             .stat-card-title {
                 font-weight: normal;
