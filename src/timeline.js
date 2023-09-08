@@ -26,7 +26,11 @@ export function Timeline({ timeline, tid }) {
             var itemLength = selectors.item.length;
             $(window).scroll(function() {
                 var max, min;
-                var pos = $(this).scrollTop();
+
+                // var pos is middle of screen
+                var pos = ($(this).scrollTop() + $(this).height() / 2) - 200;
+
+                // var pos = $(this).scrollTop() + 200;
                 selectors.item.each(function(i) {
                     min = $(this).offset().top;
                     max = $(this).height() + $(this).offset().top;
