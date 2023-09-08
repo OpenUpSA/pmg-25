@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel src/index.html",
+    "dev": "copyfiles --flat ./src/img/* ./dist/img/ && parcel src/index.html",
     "build": "copyfiles --flat ./src/img/* ./dist/img/ && parcel build src/index.html"
   },
   "dependencies": {

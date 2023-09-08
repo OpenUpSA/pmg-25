@@ -44,15 +44,15 @@ function App() {
 			title: "1999",
 			subtitle: "Users Tripled",
 			content: "Within one year of going online, PMG tripled user access to its website.",
-			img: "img/placeholder.jpg",
-			bg: "",
+			img: "img/1998-2-lg.jpg",
+			bg: "img/1998-2-lg.jpg",
 		},
 		{
 			title: "2000",
 			subtitle: "PMG Expanded",
 			content: "PMG expanded to monitor all committees & instituted a subscriber alert service.",
-			img: "img/placeholder.jpg",
-			bg: "",
+			img: "img/1998-2-lg.jpg",
+			bg: "img/1998-2-lg.jpg",
 		}
 	];
 
@@ -61,50 +61,50 @@ function App() {
 			title: "2002",
 			subtitle: "Subscription Service",
 			content: "PMG began charging subscription fees.",
-			img: "img/placeholder.jpg",
-			bg: "",
+			img: "img/1998-2-lg.jpg",
+			bg: "img/1998-2-lg.jpg",
 		},
 		{
 			title: "2007",
 			subtitle: "Sound Recordings",
 			content: "PMG began providing sound recordings of all parliamentary meetings.",
-			img: "img/placeholder.jpg",
-			bg: "",
+			img: "img/1998-2-lg.jpg",
+			bg: "img/1998-2-lg.jpg",
 		},
 		{
 			title: "2009",
 			subtitle: "NGO Status",
 			content: "PMG became an independent NGO.",
-			img: "img/placeholder.jpg",
-			bg: "",
+			img: "img/1998-2-lg.jpg",
+			bg: "img/1998-2-lg.jpg",
 		},
 		{
 			title: "2011",
 			subtitle: "Bill Tracker launched",
 			content: "Bill Tracker launched.",
-			img: "img/placeholder.jpg",
-			bg: "",
+			img: "img/1998-2-lg.jpg",
+			bg: "img/1998-2-lg.jpg",
 		},
 		{
 			title: "2014",
 			subtitle: "People's Assembly launched",
 			content: "People's Assembly was launched.",
-			img: "img/placeholder.jpg",
-			bg: "",
+			img: "img/1998-2-lg.jpg",
+			bg: "img/1998-2-lg.jpg",
 		},
 		{
 			title: "2018",
 			subtitle: "Provincial Legislatures",
 			content: "PMG started monitoring provincial legislatures.",
-			img: "img/placeholder.jpg",
-			bg: "",
+			img: "img/1998-2-lg.jpg",
+			bg: "img/1998-2-lg.jpg",
 		},
 		{
 			title: "2021",
 			subtitle: "Zondo Comission",
 			content: "PMG assisted the Zondo Commission.",
-			img: "img/placeholder.jpg",
-			bg: "",
+			img: "img/1998-2-lg.jpg",
+			bg: "img/1998-2-lg.jpg",
 		}
 	];
 
@@ -137,7 +137,7 @@ function App() {
 					</div></Tween>In recognition of the fact that a Parliament should not operate in isolation from the people, these committee meetings were now opened up to attendance by the public. They were intended to provide a forum for departments and, when invited, for private or civil society bodies to present their views on policies, budgets, and proposed legislation. In this way, the parliamentary committees took on increased responsibilities and functions as the “engine room” of Parliament, where vital debates and developments would occur. Though it was important for advocacy organisations to capture what was happening at these crucial meetings, it soon became apparent that Parliament itself could not provide sufficient information about its activities. This ranged, at the time, from the most basic information about the schedules for meetings, to reporting on what was discussed in the meetings and at media briefings. Not only was there no ongoing current information, there was also no institutional memory being created. In the following two years, the Constitutional Assembly and Bill of Rights process and the drafting of legislation setting up the Chapter 9 institutions resulted in a rapid rise in the number of meetings.</p>
 
 					<p><Tween from={{ opacity: 0, y: -100 }} to={{ opacity: 1, y: 0, scrollTrigger: {trigger: '.pullout2', start: '-200px center', end: '200px center', scrub: 0.5} }} ><div className="pullout left pullout2">
-						<img src="img/placeholder.jpg"/>
+						<img src="img/1998-2-lg.jpg"/>
 					</div></Tween>At this time, a number of advocacy organisations were trying, individually, to follow committees pertinent to their areas of interest, largely so that their representatives would then be in a better position to make public submissions. The Black Sash, Institute for Democracy in South Africa, and Human Rights Committee (an NGO not to be confused with the SAHRC), although dealing with different issues, were all concerned with trying to get as much information as possible about the workings of the parliamentary committees, for the purpose of their advocacy efforts.</p>
 
 					<p>These three bodies collaborated and managed to build up a team of volunteers, who were reimbursed for their transport costs only, to attend and take hand-written notes from the meetings they attended, which were then circulated between the three organisations. There was some difficulty in achieving consistency through the use of volunteers only. <Tween from={{ opacity: 0, y: -100 }} to={{ opacity: 1, y: 0, scrollTrigger: {trigger: '.pullout3', start: '-200px center', end: '200px center', scrub: 0.5} }} ><div className="pullout right pullout3">
@@ -179,6 +179,40 @@ function App() {
 			</section>
 
 			<Timeline timeline={timeline2} tid="timeline2"/>
+
+
+			<section className="stats">
+				<div className="stats-inner">
+					<Tween from={{ opacity: 0, y: -100 }} to={{ opacity: 1, y: 0, scrollTrigger: {trigger: '.stats-inner', start: '-175px center', end: '225px center', scrub: 0.5} }} >
+						<h1>PMG IN NUMBERS</h1>
+						<h2>At the time of writing</h2>
+					</Tween>
+					<div className="stat-cards-row">
+						<Tween from={{ opacity: 0, y: -100 }} to={{ opacity: 1, y: 0, scrollTrigger: {trigger: '.stats', start: '-200px center', end: '200px center', scrub: 0.5} }} stagger={{amount: 4}} >
+							<div className="col">
+								<div className="stat-card stat-card1">
+									<div className="stat-card-title">Users Per Month</div>
+									<div className="stat-card-number">90,000</div>
+								</div>
+							</div>
+							<div className="col">
+								<div className="stat-card stat-card2">
+									<div className="stat-card-title">Comittee Meetings Listed</div>
+									<div className="stat-card-number">30,267</div>
+								</div>
+							</div>
+							<div className="col">
+								<div className="stat-card stat-card3">
+									<div className="stat-card-title">Bills Tracked</div>
+									<div className="stat-card-number">1083</div>
+								</div>
+							</div>
+						</Tween>
+					</div>
+				</div>	
+			</section>
+
+
 		</>
 	);
 }

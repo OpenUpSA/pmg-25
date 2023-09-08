@@ -7,10 +7,13 @@
 	}
 }
 
+* {
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
-    font-family: Cardo;
+    font-family: 'Pathway Gothic One',sans-serif;
 }
 
 .title-slide {
@@ -43,13 +46,13 @@ body {
     }
 
     h1 {
-        font-family: 'Pathway Gothic One',sans-serif;
+        
         font-size: 6em;
         margin: 0;
     }
 
     h2 {
-        font-family: 'Pathway Gothic One',sans-serif;
+        
         text-transform: uppercase;
         letter-spacing: 3px;
         font-weight: normal;
@@ -73,6 +76,7 @@ body {
             width: 80%;
             margin: 0 auto 2em auto;
             color: #333;
+            font-family: Cardo;
         }
 
         .pullout {
@@ -90,6 +94,7 @@ body {
             width: 40%;
             font-size: 1.4em;
             font-family: 'Pathway Gothic One',sans-serif;
+            
 
             img {
                 width: 100%;
@@ -98,6 +103,77 @@ body {
         }
     }
 
+
+}
+
+.stats {
+    height: 100vh;
+    position: relative;
+    background-image: url('img/sa-parliament.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-color: #ccc;
+    background-blend-mode: screen;
+
+    .stats-inner {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        text-align: center;
+        transform: translateY(-50%);
+
+        h1 {
+            
+            font-size: 4em;
+            margin: 0;
+        }
+
+        h2 {
+            
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: normal;
+            font-size: 1em;
+        }
+
+        .stat-cards-row {
+            display: flex;
+            // flex-flow: row;
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .col {
+            width:100%;
+            padding: 1em;
+        }
+
+        .stat-card {
+            box-shadow: 0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+            0 12.5px 10px rgba(0, 0, 0, 0.06),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+            0 100px 80px rgba(0, 0, 0, 0.12);
+            width: 100%;
+            padding: 2em;
+            background-color: #1883da;
+            color: #fff;
+
+            .stat-card-title {
+                font-weight: normal;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+            }
+
+            .stat-card-number {
+                font-weight: 700;
+                font-size: 3em;
+            }
+            
+        }
+
+    }
 
 }
 
