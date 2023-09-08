@@ -1,6 +1,6 @@
-# React Starter
+# PMG 25
 
-A basic React Starter project with Tailwind CSS and Parcel.
+25 Years of the Parliamentary Monitoring Group
 
 ## Install
 
