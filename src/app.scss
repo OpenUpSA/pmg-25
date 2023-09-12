@@ -16,50 +16,6 @@ body {
     font-family: 'Pathway Gothic One',sans-serif;
 }
 
-.title-slide {
-    height: 100vh;
-    position: relative;
-    background-color: rgba(28, 129, 211, 0.5);
-    
-    &:before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-image: url('img/sa-parliament.jpg');
-        background-position: center center;
-        background-size: cover;
-        top: 0;
-        left: 0;
-        mix-blend-mode: multiply;
-        opacity: 0.5;
-    }
-
-
-    .title-slide-content {
-        position: absolute;
-        width: 100%;
-        top: 50%;
-        text-align: center;
-        transform: translateY(-50%);
-        color: #fff;
-    }
-
-    h1 {
-        
-        font-size: 6em;
-        margin: 0;
-    }
-
-    h2 {
-        
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        font-weight: normal;
-        font-size: 3em;
-    }
-
-}
 
 .text-slide {
     padding: 4em 0;
@@ -71,6 +27,15 @@ body {
         font-size: 18px;
         text-align: justify;
         line-height: 1.8em;
+
+        .logo {
+            background-image: url('img/pmg.png');
+            width: 100%;
+            height: 100px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin: 0 0 4em 0;
+        }
 
         p {
             width: 80%;
@@ -84,11 +49,13 @@ body {
             &.right {
                 float: right;
                 margin: 2em -20% 2em 2em;
+                text-align: left;
             }
 
             &.left {
                 float: left;
                 margin: 2em 2em 2em -20%;
+                text-align: right;
             }
 
             width: 40%;

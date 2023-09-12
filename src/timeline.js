@@ -42,7 +42,7 @@ export function Timeline({ timeline, tid }) {
                             "url(" +
                             selectors.item
                                 .last()
-                                .find(selectors.bg)
+                                .find(selectors.img)
                                 .attr("src") +
                             ")"
                         );
@@ -52,7 +52,7 @@ export function Timeline({ timeline, tid }) {
                             "background-image",
                             "url(" +
                             $(this)
-                                .find(selectors.bg)
+                                .find(selectors.img)
                                 .attr("src") +
                             ")"
                         );
@@ -68,16 +68,15 @@ export function Timeline({ timeline, tid }) {
     }, []);      
 
     return (
-        <div class="timeline-container" id={tid}>
-            <div class="timeline">
+        <div className="timeline-container" id={tid}>
+            <div className="timeline">
                 {
 					timeline.map((slide, index) => 
-                        <div class="timeline-item" data-text={slide.subtitle}>
-                            <div class="timeline__content">
-                                <img class="timeline__bg" src={slide.bg} ></img>
-                                <img class="timeline__img" src={slide.img} />
-                                <h2 class="timeline__content-title">{slide.title}</h2>
-                                <p class="timeline__content-desc">{slide.content}</p>
+                        <div className="timeline-item" data-text={slide.subtitle} key={index}>
+                            <div className="timeline__content">
+                                <img className="timeline__img" src={slide.img} />
+                                <h2 className="timeline__content-title">{slide.title}</h2>
+                                <p className="timeline__content-desc">{slide.content}</p>
                             </div>
                         </div>
                     )
