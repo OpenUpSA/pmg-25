@@ -7,7 +7,7 @@
 	}
 }
 
-$content-font: Cardo;
+$content-font: 'Pathway Gothic One',sans-serif;
 $heading-font: 'Pathway Gothic One',sans-serif;
 $timeline-width: 700px;
 $timeline-container-width: 100%;
@@ -34,7 +34,7 @@ $timeline-container-width: 100%;
 
 		&-desc {
 			margin: 0;
-			font-size: 15px;
+			font-size: 23px;
 			box-sizing: border-box;
 			color: #fff;
 			font-family: $content-font;

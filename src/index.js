@@ -19,49 +19,49 @@ function App() {
 			subtitle: "First Democratic Election",
 			content: "Under the watchful eye of the IEC, South Africa held its first democratic election, ending 50 years of Apartheid.",
 			img: "img/1994-sm.jpg",
-			bg: "img/1994-lg.jpg",
+			bg: "",
 		},
 		{
 			title: "1994",
 			subtitle: "First Parliament",
 			content: "",
 			img: "img/1994-2-sm.jpg",
-			bg: "img/1994-2-lg.jpg",
+			bg: "",
 		},
 		{
 			title: "1995",
 			subtitle: "Partnership Formed",
 			content: "Established a partnership with Black Sash, Human Rights Committee and Idasa.",
 			img: "img/1995-sm.jpg",
-			bg: "img/1995-lg.jpg",
+			bg: "",
 		},
 		{
 			title: "1998",
 			subtitle: "First PMG Website",
 			content: "The website was set up to make information available to a wider audience.",
 			img: "img/1998-sm.jpg",
-			bg: "img/1998-lg.jpg",
+			bg: "",
 		},
 		{
 			title: "1999",
 			subtitle: "Second Parliament",
 			content: "Second Parliament",
-			img: "img/1999-lg.jpg",
-			bg: "img/1999-lg.jpg",
+			img: "img/1999-sm.jpg",
+			bg: "",
 		},
 		{
 			title: "1999",
 			subtitle: "Users Tripled",
 			content: "Within one year of going online, PMG tripled user access to its website.",
 			img: "img/1998-sm.jpg",
-			bg: "img/1998-lg.jpg",
+			bg: "",
 		},
 		{
 			title: "2000",
 			subtitle: "PMG Expanded",
 			content: "PMG expanded to monitor all committees & instituted a subscriber alert service.",
 			img: "img/2000-sm.jpg",
-			bg: "img/2000-lg.jpg",
+			bg: "",
 		}
 	];
 
@@ -71,77 +71,77 @@ function App() {
 			subtitle: "Subscription Service",
 			content: "PMG began charging subscription fees.",
 			img: "img/2002-sm.jpg",
-			bg: "img/2002-lg.jpg",
+			bg: "",
 		},
 		{
 			title: "2004",
 			subtitle: "Third Parliament",
 			content: "",
 			img: "img/2004-sm.jpg",
-			bg: "img/1994-2-lg.jpg",
+			bg: "",
 		},
 		{
 			title: "2007",
 			subtitle: "Sound Recordings",
 			content: "PMG began providing sound recordings of all parliamentary meetings.",
 			img: "img/2007-sm.jpg",
-			bg: "img/1994-2-lg.jpg",
+			bg: "",
 		},
 		{
 			title: "2009",
 			subtitle: "NGO Status",
 			content: "PMG became an independent NGO.",
 			img: "img/2009-sm.jpg",
-			bg: "img/2009-lg.jpg",
+			bg: "",
 		},
 		{
 			title: "2009",
 			subtitle: "Fourth Parliament",
 			content: "",
-			img: "img/2009-sm.jpg",
-			bg: "img/1994-2-lg.jpg",
+			img: "img/2009-2-sm.jpg",
+			bg: "",
 		},
 		{
 			title: "2011",
 			subtitle: "Bill Tracker launched",
 			content: "Bill Tracker launched.",
-			img: "img/1998-2-lg.jpg",
-			bg: "img/1998-2-lg.jpg",
+			img: "img/2011-sm.jpg",
+			bg: "",
 		},
 		{
 			title: "2014",
 			subtitle: "People's Assembly launched",
 			content: "People's Assembly was launched.",
-			img: "img/1998-2-lg.jpg",
-			bg: "img/1998-2-lg.jpg",
+			img: "img/2014-2-sm.jpg",
+			bg: "",
 		},
 		{
 			title: "2014",
 			subtitle: "Fifth Parliament",
 			content: "",
 			img: "img/2014-sm.jpg",
-			bg: "img/1994-2-lg.jpg",
+			bg: "",
 		},
 		{
 			title: "2018",
 			subtitle: "Provincial Legislatures",
 			content: "PMG started monitoring provincial legislatures.",
-			img: "img/1998-2-lg.jpg",
-			bg: "img/1998-2-lg.jpg",
+			img: "img/2018-sm.jpg",
+			bg: "",
 		},
 		{
 			title: "2019",
 			subtitle: "Sixth Parliament",
 			content: "",
 			img: "img/2019-sm.jpg",
-			bg: "img/1994-2-lg.jpg",
+			bg: "",
 		},
 		{
 			title: "2021",
 			subtitle: "Zondo Comission",
 			content: "PMG assisted the Zondo Commission.",
-			img: "img/1998-2-lg.jpg",
-			bg: "img/1998-2-lg.jpg",
+			img: "img/2021-sm.jpg",
+			bg: "",
 		}
 	];
 
@@ -241,7 +241,7 @@ function App() {
 					</div></Tween>In recognition of the fact that a Parliament should not operate in isolation from the people, these committee meetings were now opened up to attendance by the public. They were intended to provide a forum for departments and, when invited, for private or civil society bodies to present their views on policies, budgets, and proposed legislation. In this way, the parliamentary committees took on increased responsibilities and functions as the “engine room” of Parliament, where vital debates and developments would occur. Though it was important for advocacy organisations to capture what was happening at these crucial meetings, it soon became apparent that Parliament itself could not provide sufficient information about its activities. This ranged, at the time, from the most basic information about the schedules for meetings, to reporting on what was discussed in the meetings and at media briefings. Not only was there no ongoing current information, there was also no institutional memory being created. In the following two years, the Constitutional Assembly and Bill of Rights process and the drafting of legislation setting up the Chapter 9 institutions resulted in a rapid rise in the number of meetings.</p>
 
 					<p><Tween from={{ opacity: 0, y: -100 }} to={{ opacity: 1, y: 0, scrollTrigger: {trigger: '.pullout2', start: '-200px center', end: '200px center', scrub: 0.5} }} ><div className="pullout left pullout2">
-						<img src="img/1998-2-lg.jpg"/>
+					The Black Sash, Institute for Democracy in South Africa, and Human Rights Committee, although dealing with different issues, were all concerned with trying to get as much information as possible
 					</div></Tween>At this time, a number of advocacy organisations were trying, individually, to follow committees pertinent to their areas of interest, largely so that their representatives would then be in a better position to make public submissions. The Black Sash, Institute for Democracy in South Africa, and Human Rights Committee (an NGO not to be confused with the SAHRC), although dealing with different issues, were all concerned with trying to get as much information as possible about the workings of the parliamentary committees, for the purpose of their advocacy efforts.</p>
 
 					<p>These three bodies collaborated and managed to build up a team of volunteers, who were reimbursed for their transport costs only, to attend and take hand-written notes from the meetings they attended, which were then circulated between the three organisations. There was some difficulty in achieving consistency through the use of volunteers only. <Tween from={{ opacity: 0, y: -100 }} to={{ opacity: 1, y: 0, scrollTrigger: {trigger: '.pullout3', start: '-200px center', end: '200px center', scrub: 0.5} }} ><div className="pullout right pullout3">

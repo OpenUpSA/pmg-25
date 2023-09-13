@@ -30,11 +30,18 @@ body {
 
         .logo {
             background-image: url('img/pmg.png');
-            width: 100%;
+            width: 90%;
             height: 100px;
             background-repeat: no-repeat;
             background-position: center center;
+            background-size: contain;
             margin: 0 0 4em 0;
+
+            @include responsive() {
+                margin: 0 auto;
+            }
+
+            
         }
 
         p {
@@ -50,17 +57,33 @@ body {
                 float: right;
                 margin: 2em -20% 2em 2em;
                 text-align: left;
+
+                @include responsive() {
+                    float: unset;
+                    text-align: center;
+                    margin: 2em 0;
+                }
             }
 
             &.left {
                 float: left;
                 margin: 2em 2em 2em -20%;
                 text-align: right;
+
+                @include responsive() {
+                    float: unset;
+                    text-align: center;
+                    margin: 2em 0;
+                }
             }
 
             width: 40%;
             font-size: 1.4em;
             font-family: 'Pathway Gothic One',sans-serif;
+
+            @include responsive() {
+                width: 100%;
+            }
             
 
             img {
@@ -104,6 +127,10 @@ body {
             
             font-size: 4em;
             margin: 0;
+
+            @include responsive() {
+                font-size: 2em;
+            }
         }
 
         h2 {
@@ -120,11 +147,19 @@ body {
             width: 100%;
             max-width: 900px;
             margin: 0 auto;
+            
+            @include responsive() {
+                display: block;
+            }
         }
 
         .col {
             width:100%;
             padding: 1em;
+            
+            @include responsive() {
+                margin: 0.5em 0;
+            }
         }
 
         .stat-card {
@@ -139,6 +174,12 @@ body {
             color: #fff;
             border-radius: 5px;
 
+            @include responsive() {
+                padding: 1em;
+            }
+
+            
+
             .stat-card-title {
                 font-weight: normal;
                 text-transform: uppercase;
@@ -148,6 +189,10 @@ body {
             .stat-card-number {
                 font-weight: 700;
                 font-size: 3em;
+
+                @include responsive() {
+                    font-size: 2em;
+                }
             }
             
         }

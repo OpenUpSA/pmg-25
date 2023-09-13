@@ -1,4 +1,10 @@
-$items: 4;
+@mixin responsive() {
+	@media only screen and (max-width: 767px) {
+		@content;
+	}
+}
+
+$items: 3;
 $animation-time: 4s;
 $transition-time: .5s;
 $scale: 20%;
@@ -30,6 +36,10 @@ $scale-base-1: (1 + $scale / 100%);
   
     font-size: 5em;
     margin: 0;
+
+    @include responsive() {
+      font-size: 2em;
+    }
   }
   
   h2 {
@@ -38,6 +48,10 @@ $scale-base-1: (1 + $scale / 100%);
     letter-spacing: 3px;
     font-weight: normal;
     font-size: 2em;
+
+    @include responsive() {
+      font-size: 2em;
+    }
   }
 }
 
