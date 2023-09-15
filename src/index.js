@@ -7,6 +7,8 @@ import { Testimonials } from './testimonials';
 import { gsap } from 'gsap';
 import { Tween } from 'react-gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import KAS from './img/KASlogo.jpg';
+import pmglogo from './img/pmg.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -323,6 +325,13 @@ function App() {
 			</section>
 
 			<Testimonials testimonials={testimonials} />
+
+			<footer>
+				<div className="text-center">
+					<a href="https://www.kas.de/" target="_blank"><img className="KAS" src={KAS}/></a>
+					<a href="https://pmg.org.za"><img className="pmglogo" src={pmglogo}/></a>
+				</div>
+			</footer>
 
 
 		</>
