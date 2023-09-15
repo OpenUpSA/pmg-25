@@ -17,28 +17,28 @@ function App() {
 		{
 			title: "1994",
 			subtitle: "First Democratic Election",
-			content: "Under the watchful eye of the IEC, South Africa held its first democratic election, ending 50 years of Apartheid.",
+			content: "PMG's story coincides with the new democratic Parliament that was established in 1994.",
 			img: "img/1994-sm.jpg",
 			bg: "",
 		},
 		{
 			title: "1994",
 			subtitle: "First Parliament",
-			content: "",
+			content: "In recognition of the fact that a Parliament should not operate in isolation from the people, these committee meetings were now opened up to attendance by the public.",
 			img: "img/1994-2-sm.jpg",
 			bg: "",
 		},
 		{
 			title: "1995",
 			subtitle: "Partnership Formed",
-			content: "Established a partnership with Black Sash, Human Rights Committee and Idasa.",
+			content: "Established a partnership with Black Sash, Human Rights Committee and Idasa. These three bodies collaborated and managed to build up a team of volunteers, who were reimbursed for their transport costs only, to attend and take hand-written notes from the meetings they attended, which were then circulated between the three organisations.",
 			img: "img/1995-sm.jpg",
 			bg: "",
 		},
 		{
 			title: "1998",
 			subtitle: "First PMG Website",
-			content: "The website was set up to make information available to a wider audience.",
+			content: "the PMG website was launched on which its reports and other targeted information were published. The website is the face of the organisation and is the vehicle through which we help to strengthen democracy through information.",
 			img: "img/1998-sm.jpg",
 			bg: "",
 		},
@@ -69,7 +69,7 @@ function App() {
 		{
 			title: "2002",
 			subtitle: "Subscription Service",
-			content: "PMG began charging subscription fees.",
+			content: "PMG began charging subscription fees. Initially, PMG managed to work without charging subscriptions, but by 2002, when donor funding was diminishing and costs were increasing, the decision was taken to charge subscriptions to commercial institutions and government parastatals for some committee reports, to build sustainability.",
 			img: "img/2002-sm.jpg",
 			bg: "",
 		},
@@ -83,7 +83,7 @@ function App() {
 		{
 			title: "2007",
 			subtitle: "Sound Recordings",
-			content: "PMG began providing sound recordings of all parliamentary meetings.",
+			content: "PMG began providing sound recordings of all parliamentary meetings. It's hard to imagine that monitors used to sit in on meetings and produce reports based on short hand notes and memory! However in 2007, PMG started publishing audio recordings of meetings to accompany reports.",
 			img: "img/2007-sm.jpg",
 			bg: "",
 		},
@@ -104,14 +104,14 @@ function App() {
 		{
 			title: "2011",
 			subtitle: "Bill Tracker launched",
-			content: "Bill Tracker launched.",
+			content: "Bill Tracker launched. Monitoring and keeping tabs on legislation is critical to the advocacy work of many organisations. PMG continued to broaden its services by launching the Bill Tracker where the public can track Bills in Parliament from the genesis of introduction to the commencement date of the Bill. Bills undergo a number of detailed iterations as they are processed by committees and all this detail can be tracked through this tool.",
 			img: "img/2011-sm.jpg",
 			bg: "",
 		},
 		{
 			title: "2014",
 			subtitle: "People's Assembly launched",
-			content: "People's Assembly was launched.",
+			content: "As the PMG website evolved and became the go-to source for parliamentary information, it was recognised there was a lack of civic education and a large portion of society that had no idea what Parliament does and who their representatives are. Our sister website, People’s Assembly was launched to bridge the gap between the public and their elected representatives in Parliament and the legislatures. Key features of the PA website include a replocator to find your representatives, constituency offices of representatives, writing directly to your representatives and parliamentary committees and civic education content for those who might not be in the know.",
 			img: "img/2014-2-sm.jpg",
 			bg: "",
 		},
@@ -125,7 +125,7 @@ function App() {
 		{
 			title: "2018",
 			subtitle: "Provincial Legislatures",
-			content: "PMG started monitoring provincial legislatures.",
+			content: "PMG started monitoring provincial legislatures. As the PMG website evolved and became the go-to source for parliamentary information, it was recognised there was a lack of civic education and a large portion of society that had no idea what Parliament does and who their representatives are. Our sister website, People's Assembly was launched to bridge the gap between the public and their elected representatives in Parliament and the legislatures. Key features of the PA website include a replocator to find your representatives, constituency offices of representatives, writing directly to your representatives and parliamentary committees and civic education content for those who might not be in the know.",
 			img: "img/2018-sm.jpg",
 			bg: "",
 		},
@@ -139,7 +139,7 @@ function App() {
 		{
 			title: "2021",
 			subtitle: "Zondo Comission",
-			content: "PMG assisted the Zondo Commission.",
+			content: "PMG assisted the Zondo Commission. When the Zondo Commission's work began, PMG was approached by the team working on the parliamentary oversight evidence. We worked closely with the Commission providing access to our parliamentary reports, records and offering insight to assist in building evidence for this section. We specifically worked on using our reports and records on Bosasa and PRASA. PMG testified at the Commission in February 2021 and countless witnesses attested to the fact that their evidence was corroborated by and developed through the PMG records. When the final report of the Zondo Commission's report was released, PMG was extensively cited as an evidence source. PMG's work on the Zondo Commission culminated in our 2022 research report and analysis of State Capture and the role of Parliament.",
 			img: "img/2021-sm.jpg",
 			bg: "",
 		}
