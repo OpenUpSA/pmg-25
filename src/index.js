@@ -10,6 +10,7 @@ import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import KAS from './img/KASlogo.jpg';
 import pmglogo from './img/pmg.png';
 
+
 gsap.registerPlugin(ScrollTrigger);
 
 
@@ -233,6 +234,13 @@ function App() {
 				<div className="text-slide-inner">
 
 					<div className="logo"/>
+
+					<video width="100%" controls style={{marginBottom: '2em'}}>
+						<source src='./img/pmg-25.mp4' type="video/mp4"/>
+					</video>
+
+
+
 
 					<p>PMG's story coincides with the new democratic Parliament that was established in 1994.</p>
 
