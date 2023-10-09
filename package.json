@@ -4,7 +4,7 @@
     "license": "MIT",
     "scripts": {
       "dev": "copyfiles --flat ./src/img/* ./dist/img/ && copyfiles --flat ./src/img/event/* ./dist/img/event/ && parcel src/index.html",
-      "build": "copyfiles --flat ./src/img/* ./dist/img/ && parcel build src/index.html"
+      "build": "copyfiles --flat ./src/img/* ./dist/img/ && copyfiles --flat ./src/img/event/* ./dist/img/event/ && parcel build src/index.html"
     },
     "dependencies": {
       "autoprefixer": "^10.4.14",
