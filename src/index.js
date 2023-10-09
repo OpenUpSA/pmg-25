@@ -4,9 +4,12 @@ import './app.scss';
 import { Timeline } from './timeline';
 import { Slideshow } from './slideshow';
 import { Testimonials } from './testimonials';
+import { Event } from './event';
 import { gsap } from 'gsap';
 import { Tween } from 'react-gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+
+
 import KAS from './img/KASlogo.jpg';
 import pmglogo from './img/pmg.png';
 
@@ -212,6 +215,45 @@ function App() {
 			testimonial: "<p>We hold the strong view that the Parliamentary Monitoring Group has made, and continues to make a significant contribution to South Africa's democracy.</p><p>In tandem with the constitutional requirements and developed practices of the legislatures to be transparent and accessible, the PMG has invested in systems to support, augment, and broaden the reach of information from the legislatures. External evaluation demonstrates, that the consequence of this is increased public access to and engagements with legislatures. PMG's consistent presence and recording of proceedings in committees has also made a direct contribution to transparent and accountable government as evidenced most recently through the Zondo Commission of Inquiry into State Capture. The DOI has relied on information provided by the PMG to inform research and augment the evidence-base of our contributions to policy formulation, and to our efforts aimed at accountable government linked to the realization of human rights. At this critical phase of South Africa's democracy, where practices of transparency are being tested, the role played by PMG is invaluable. The organisation's pursuit of neutrality is exemplary. In the context of its work, this approach is foundational to its contribution to our democracy. In addition to being a user of PMG's services, the DOI has also partnered in projects aimed at strengthening the functioning of the legislatures in South Africa's democracy, with the PMG. Time and again PMG has shown itself to be a reliable, responsive, and committed organization to partner with.</p>"
 		}
 	];
+	const photos = [
+		{
+			src: "/img/event/1.jpg",
+			width: 1280,
+			height: 960,
+		},
+		{
+			src: "/img/event/2.jpg",
+			width: 1280,
+			height: 960,
+		},
+		{
+			src: "/img/event/3.jpg",
+			width: 1280,
+			height: 960,
+		},
+		{
+			src: "/img/event/4.jpg",
+			width: 1280,
+			height: 960,
+		},
+		{
+			src: "/img/event/5.jpg",
+			width: 1280,
+			height: 960,
+		},
+		{
+			src: "/img/event/6.jpg",
+			width: 1280,
+			height: 960,
+		},
+		{
+			src: "/img/event/7.jpg",
+			width: 1280,
+			height: 960,
+		},
+		
+		
+	]
 
 
 
@@ -234,11 +276,6 @@ function App() {
 				<div className="text-slide-inner">
 
 					<div className="logo"/>
-
-					<video width="100%" controls style={{marginBottom: '2em'}}>
-						<source src='./img/pmg-25.mp4' type="video/mp4"/>
-					</video>
-
 
 
 
@@ -333,6 +370,9 @@ function App() {
 			</section>
 
 			<Testimonials testimonials={testimonials} />
+
+			<Event photos={photos}/>
+
 
 			<footer>
 				<div className="text-center">

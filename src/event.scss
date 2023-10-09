@@ -1,0 +1,64 @@
+@mixin responsive() {
+	@media only screen and (max-width: 767px) {
+		@content;
+	}
+}
+
+
+.photoalbum-container {
+    padding: 2em;
+}
+
+.event {
+    height: 100vh;
+    position: relative;
+    background-color: #ccc;
+    
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 100%;
+        background-image: url('img/sa-parliament.jpg');
+        background-position: center center;
+        background-size: cover;
+        filter: grayscale(100%);
+        opacity: 0.05;
+    }
+
+    .event-inner {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        text-align: center;
+        transform: translateY(-50%);
+
+        img {
+            outline: 4px solid #fff;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.6);
+        }
+
+        h1 {
+            
+            font-size: 4em;
+            margin: 0;
+
+            @include responsive() {
+                font-size: 2em;
+            }
+        }
+
+        h2 {
+            
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: normal;
+            font-size: 1.4em;
+        }
+
+    }
+
+}

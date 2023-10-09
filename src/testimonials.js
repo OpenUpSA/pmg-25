@@ -14,6 +14,11 @@ export function Testimonials({ testimonials }) {
                 <Tween from={{ opacity: 0, y: -100 }} to={{ opacity: 1, y: 0, scrollTrigger: {trigger: '.testimonials-inner', start: '-175px center', end: '225px center', scrub: 0.5} }} >
                     <h1>TESTIMONIALS</h1>
                 </Tween>
+                <Tween from={{ opacity: 0, y: -100 }} to={{ opacity: 1, y: 0, scrollTrigger: {trigger: '.testimonials-inner', start: '-175px center', end: '225px center', scrub: 0.5} }} >
+                    <video width="100%" controls style={{marginBottom: '4em'}}>
+						<source src='./img/pmg-25.mp4' type="video/mp4"/>
+					</video>
+                </Tween>
                 {
                     testimonials.map((testimonial, index) => (
                     <Tween from={{ opacity: 0, x: -100 }} to={{ opacity: 1, x: 0, scrollTrigger: {trigger: '.testimonial-' + index, start: '-175px center', end: '225px center', scrub: 0.5} }} >

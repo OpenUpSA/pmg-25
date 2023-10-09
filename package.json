@@ -1,28 +1,31 @@
 {
-  "name": "PMG25",
-  "version": "1.0.0",
-  "license": "MIT",
-  "scripts": {
-    "dev": "copyfiles --flat ./src/img/* ./dist/img/ && parcel src/index.html",
-    "build": "copyfiles --flat ./src/img/* ./dist/img/ && parcel build src/index.html"
-  },
-  "dependencies": {
-    "autoprefixer": "^10.4.14",
-    "copyfiles": "^2.4.1",
-    "enter-view": "^2.0.1",
-    "gsap": "^3.12.2",
-    "jquery": "^3.7.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-gsap": "^3.2.1",
-    "react-html-parser": "^2.0.2",
-    "react-simple-animate": "^3.5.2"
-  },
-  "devDependencies": {
-    "@parcel/transformer-sass": "2.8.3",
-    "buffer": "^5.5.0",
-    "events": "^3.1.0",
-    "parcel": "^2.8.3",
-    "process": "^0.11.10"
+    "name": "PMG25",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+      "dev": "copyfiles --flat ./src/img/* ./dist/img/ && copyfiles --flat ./src/img/event/* ./dist/img/event/ && parcel src/index.html",
+      "build": "copyfiles --flat ./src/img/* ./dist/img/ && parcel build src/index.html"
+    },
+    "dependencies": {
+      "autoprefixer": "^10.4.14",
+      "copyfiles": "^2.4.1",
+      "enter-view": "^2.0.1",
+      "gsap": "^3.12.2",
+      "jquery": "^3.7.1",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-gsap": "^3.2.1",
+      "react-html-parser": "^2.0.2",
+      "react-photo-album": "^2.3.0",
+      "react-simple-animate": "^3.5.2",
+      "yet-another-react-lightbox": "^3.13.0"
+    },
+    "devDependencies": {
+      "@parcel/transformer-sass": "2.8.3",
+      "buffer": "^5.5.0",
+      "events": "^3.1.0",
+      "parcel": "^2.8.3",
+      "process": "^0.11.10"
+    }
   }
-}
+  
