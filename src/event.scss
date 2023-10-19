@@ -10,7 +10,8 @@
 }
 
 .event {
-    height: 100vh;
+    min-height: 100vh;
+    
     position: relative;
     background-color: #ccc;
     
@@ -30,11 +31,12 @@
     }
 
     .event-inner {
-        position: absolute;
+        position: relative;
         width: 100%;
-        top: 50%;
+        // top: 50%;
         text-align: center;
-        transform: translateY(-50%);
+        // transform: translateY(-50%);
+        padding: 4em 0;
 
         img {
             outline: 4px solid #fff;

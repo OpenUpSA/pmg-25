@@ -217,25 +217,80 @@ function App() {
 	];
 	const photos = [
 		{
+			src: "/img/event/i2.jpg",
+			width: 1620,
+			height: 1080,
+			description: "PMG Board Chair Ghalib Galant facilitating the panel discussion.",
+		},
+		{
+			src: "/img/event/i4.jpg",
+			width: 1620,
+			height: 1080,
+			description: "PMG Monitor Siya Nkibi sharing his experiences as a monitor of dozens of parliamentary committees.",
+		},
+		{
+			src: "/img/event/i5.jpg",
+			width: 1620,
+			height: 1080,
+			description: "PMG Monitors and Projects Manager Monique Doyle on the day-to-day workings of PMG.",
+		},
+		{
+			src: "/img/event/i7.jpg",
+			width: 1620,
+			height: 1080,
+			description: "UCT Professor Richard Calland giving remarks during the panel discussion on the PMG website's lasting impact.",
+		},
+		{
+			src: "/img/event/i8.jpg",
+			width: 1620,
+			height: 1080,
+			description: "Equal Education Operations Manager Sam Waterhouse giving reflections from the floor.",
+		},
+		{
+			src: "/img/event/i9.jpg",
+			width: 1620,
+			height: 1080,
+			description: "Freedom Under Law Executive Director Judith February recalling the 'first pulse' of PMG. (Right) and Black Sash National Advocacy Manager and PMG Board Member, Hoodah Abrahams-Fayker, on her experiences as a user of the website and collaboration between civil society and Parliament. (Left)",
+		},
+		{
+			src: "/img/event/i99.jpg",
+			width: 1620,
+			height: 1080,
+			description: "Information Regulator Board Member Alison Tilley delivering the keynote address. 'I don\'t think transparency will happen on its own - we need to work for it.'",
+		},
+		{
+			src: "/img/event/i10.jpg",
+			width: 1620,
+			height: 1080,
+			description: "PMG Board Member Elroy Paulus and other invited guests following proceedings.",
+		},
+		{
+			src: "/img/event/i92.jpg",
+			width: 1620,
+			height: 1080,
+			description: "Konrad-Adenauer-Stiftung (KAS) Project Manager Christiaan Endres, delivering his speech. PMG is grateful to KAS for sponsoring the celebrations.",
+		},
+		{
 			src: "/img/event/1.jpg",
 			width: 1280,
 			height: 960,
+			description: "Slide description",
 		},
 		{
 			src: "/img/event/2.jpg",
 			width: 1280,
 			height: 960,
 		},
-		{
-			src: "/img/event/3.jpg",
-			width: 1280,
-			height: 960,
-		},
-		{
-			src: "/img/event/4.jpg",
-			width: 1280,
-			height: 960,
-		},
+		// {
+		// 	src: "/img/event/3.jpg",
+		// 	width: 1280,
+		// 	height: 960,
+		// },
+		// {
+		// 	src: "/img/event/4.jpg",
+		// 	width: 1280,
+		// 	height: 960,
+		// },
 		{
 			src: "/img/event/5.jpg",
 			width: 1280,
@@ -250,20 +305,8 @@ function App() {
 			src: "/img/event/7.jpg",
 			width: 1280,
 			height: 960,
-		},
-		
-		
+		}
 	]
-
-
-
-
-
-
-	
-
-	
-	
 
 	return (
 		<>

@@ -7,7 +7,9 @@ import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
 import PhotoAlbum from "react-photo-album";
 import Lightbox from "yet-another-react-lightbox";
+import Captions from "yet-another-react-lightbox/dist/plugins/captions/index.js";
 import "../node_modules/yet-another-react-lightbox/dist/styles.css";
+import "../node_modules/yet-another-react-lightbox/dist/plugins/captions/captions.css";
 
 // import optional lightbox plugins
 // import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
@@ -37,7 +39,7 @@ export function Event({ photos }) {
                         open={index >= 0}
                         index={index}
                         close={() => setIndex(-1)}
-                        // enable optional lightbox plugins
+                        plugins={[Captions]}
                         
                     />
                 </Tween>
