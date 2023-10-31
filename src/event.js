@@ -31,6 +31,11 @@ export function Event({ photos }) {
                     <h2>28 September 2023</h2>
                 </Tween>
                 <Tween from={{ opacity: 0, y: -100 }} to={{ opacity: 1, y: 0, scrollTrigger: {trigger: '.event-inner', start: '-175px center', end: '225px center', scrub: 0.5} }} >
+                    <center>
+                    <iframe width="600" height="315" src="https://www.youtube.com/embed/AnPsUyefn3c?si=ePyEgCqwrjHqVtGC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style={{maxWidth: '100%'}}></iframe>
+                    </center>
+                </Tween>
+                <Tween from={{ opacity: 0, y: -100 }} to={{ opacity: 1, y: 0, scrollTrigger: {trigger: '.event-inner', start: '-175px center', end: '225px center', scrub: 0.5} }} >
                     <div className="photoalbum-container">
                         <PhotoAlbum layout="masonry" photos={photos} onClick={({ index }) => setIndex(index)}/>
                     </div>
